@@ -1,0 +1,45 @@
+*{
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+}
+body{
+	background-image: linear-gradient(rgb(0, 0, 0, 0.5),rgb(0, 0, 0, 0.5)),url(resim-2.jpg) ;
+}
+ .container {
+ 	width: 600px;
+ 	height: 1250px;
+ 	border: 10px solid darkgreen;
+ 	margin: auto;
+ 	margin-top: 20px;
+ 	text-align: center;	
+ 	background-color: white;
+ 	border-radius: 10px;
+ }
+ .content {
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ }
+
+ img{
+ 	width: 100%;
+ 	border-radius: 10px;
+ }
+.yorum {
+	font-family:serif;
+  font-size: 18px;
+}
+ 
+button {
+  border-radius: 28px;
+  font-family: 'Dancing Script', cursive;
+  color: green;
+  font-size: 27px;
+  background: lightblue;
+  padding: 10px 20px 10px 20px;
+  
+}
+
+button:hover {
+  background: #3cb0fd; 
+}
